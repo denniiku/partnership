@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>*sc | 🔺 partnership</title>
+  <title>*sc | partnership</title>
+  <style>html,body{background:linear-gradient(to right,#f0acf7,#acf7f0,#f7f0ac);margin:0;padding:0;}body.sc-nav-open{padding-left:220px;}main{opacity:0;}</style>
   <script>
     (function() {
       var p = location.pathname.replace(/\\/g, '/');
@@ -12,16 +13,16 @@
         var i = p.toLowerCase().indexOf('/sc_web/');
         base = i !== -1 ? 'file://' + p.substring(0, i + 8) + 'common_assets/' : './common_assets/';
       }
-      var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = base + 'common.css'; document.head.appendChild(l);
-      var s = document.createElement('script'); s.src = base + 'nav_new.js'; s.defer = true; document.head.appendChild(s);
+      document.write('<link rel="stylesheet" href="' + base + 'common_new.css?v=1793788863">');
+      var s = document.createElement('script'); s.src = base + 'nav_new.js?v=1793788863'; s.defer = true; document.head.appendChild(s);
     })();
   </script>
 </head>
 <body class="sc-nav-open">
   <main style="padding: 64px 8vw; max-width: 960px;">
     <p style="font-family:'Space Grotesk',sans-serif; font-size:0.85rem; color:#526D82; margin-bottom:10px;">SIGNAL STAR UNIVERSE</p>
-    <h1 style="font-family:'Space Grotesk',sans-serif; font-size:clamp(2.2rem,4vw,3.4rem); color:#27374D; margin-bottom:18px;">🔺 partnership</h1>
-    <p style="font-size:1rem; color:#526D82; line-height:1.6;">Official Partnership Portal — <code>partnership.sistarcompany.com</code></p>
+    <h1 style="font-family:'Space Grotesk',sans-serif; font-size:clamp(2.2rem,4vw,3.4rem); color:#27374D; margin-bottom:18px;">partnership</h1>
+    <p style="font-size:1rem; color:#526D82; line-height:1.6;">Official Subdomain Portal &mdash; <code>partnership.sistarcompany.com</code></p>
   </main>
 </body>
 </html>
