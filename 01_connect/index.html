@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=block" rel="stylesheet">
-  <title>*SC | Connect - partnership - connect</title>
-  <meta name="description" content="*SC (SISTAR Company) - Connect : Zero Sunk-Capex Investment Architecture, 20-Track B2B Offer Sheets &amp; Unmanned Media Broadcasting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=block" rel="stylesheet">
+  <title>*SC | Connect — Global Partner Onboarding, Commercial Integration &amp; Co-Creation Gateway</title>
+  <meta name="description" content="Global Partner Onboarding, Commercial Integration &amp; Co-Creation Gateway of *SC (SISTAR Company): Interactive Onboarding Protocols, 20-Track B2B Offer Sheet Execution, API &amp; ERP Integration, and Joint Venture Structuring." />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "*SC | Connect",
-    "description": "Zero Sunk-Capex Investment Architecture, 20-Track B2B Offer Sheets &amp; Unmanned Media Broadcasting.",
+    "@type": "TechArticle",
+    "headline": "*SC Connect — Global Partner Onboarding, Commercial Integration & Co-Creation Gateway",
+    "description": "Comprehensive institutional execution manual for onboarding global business partners into the *SC (SISTAR Company) universe: 20-Track B2B Offer Sheet Execution, Qubit ERP API Integration, and Joint Venture Structuring.",
+    "author": {
+      "@type": "Organization",
+      "name": "*SC - SISTAR COMPANY",
+      "url": "https://sistarcompany.com"
+    },
     "publisher": {
       "@type": "Organization",
       "name": "*SC - SISTAR COMPANY",
@@ -19,7 +24,453 @@
     }
   }
   </script>
-  <style>html,body{background:linear-gradient(to right,#f0acf7,#acf7f0,#f7f0ac);margin:0;padding:0;}body.sc-nav-open{padding-left:236px;}body.sc-nav-folded{padding-left:64px;}@media(max-width:768px){body.sc-nav-open,body.sc-nav-folded{padding-left:0!important;}}</style>
+  <style>
+    html, body {
+      background: linear-gradient(to right, #f0acf7, #acf7f0, #f7f0ac);
+      margin: 0;
+      padding: 0;
+      color: #0f172a;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    body.sc-nav-open { padding-left: 236px; }
+    body.sc-nav-folded { padding-left: 64px; }
+    @media (max-width: 768px) {
+      body.sc-nav-open, body.sc-nav-folded { padding-left: 0 !important; }
+    }
+
+    /* === CLEAN UNWRAPPED MONOGRAPH & CHAPTER CONTAINER === */
+    .sc-monograph {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: min(1420px, 96%);
+      margin: 0 auto;
+      padding: clamp(36px, 5vh, 68px) clamp(24px, 4.5vw, 76px) 130px;
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+    .sc-monograph h1, .sc-monograph h2, .sc-monograph h3, .sc-monograph h4,
+    .sc-monograph p, .sc-monograph ul, .sc-monograph ol, .sc-monograph li,
+    .sc-monograph table, .sc-monograph th, .sc-monograph td, .sc-monograph div {
+      margin-left: 0;
+      text-indent: 0;
+      text-align: left;
+    }
+    .sc-top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding-bottom: 20px;
+      margin-bottom: 32px;
+      border-bottom: 1.5px solid rgba(15, 23, 42, 0.16);
+    }
+    .sc-route {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #334155;
+      margin: 0;
+      letter-spacing: 0.04em;
+      text-transform: lowercase;
+    }
+
+    /* === CHAPTER & SECTION STRUCTURE === */
+    .sc-chapter {
+      margin-bottom: 56px;
+      padding: 16px 0 36px 0;
+      border-bottom: 1.5px solid rgba(15, 23, 42, 0.16);
+      background: transparent !important;
+      border-left: none !important;
+      border-right: none !important;
+      border-top: none !important;
+      box-shadow: none !important;
+    }
+    .sc-chapter:last-of-type { border-bottom: none; }
+    .sc-chapter-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
+      border-bottom: 2px solid #0f172a;
+    }
+    .sc-chapter-num {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #0f5132;
+    }
+    .sc-chapter-tag {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #64748b;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .sc-doc-h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2.15rem, 3.8vw, 3.2rem);
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      margin: 0 0 20px 0;
+    }
+    .sc-chapter-h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 2.5vw, 2.15rem);
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.22;
+      letter-spacing: -0.025em;
+      margin: 0 0 18px 0;
+    }
+    .sc-sub-h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0 0 10px 0;
+      line-height: 1.35;
+    }
+    .sc-lead {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.08rem;
+      font-weight: 500;
+      color: #1e293b;
+      line-height: 1.82;
+      margin: 0 0 24px 0;
+    }
+    .sc-p {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.99rem;
+      color: #334155;
+      line-height: 1.82;
+      margin: 0 0 16px 0;
+    }
+
+    /* === EXECUTIVE DARK HERO & METRICS === */
+    .sc-exec-hero {
+      background: linear-gradient(135deg, #090d16 0%, #0f172a 55%, #064e3b 100%);
+      color: #ffffff;
+      border-radius: 16px;
+      padding: clamp(30px, 4vw, 48px);
+      margin: 22px 0 34px 0;
+      border: 1px solid rgba(74, 222, 128, 0.35);
+      box-shadow: 0 16px 36px rgba(15, 23, 42, 0.22);
+    }
+    .sc-exec-hero h2, .sc-exec-hero h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.45rem, 2.4vw, 1.95rem);
+      font-weight: 700;
+      color: #ffffff;
+      margin: 0 0 14px 0;
+      line-height: 1.28;
+    }
+    .sc-exec-hero p {
+      font-size: 1.04rem;
+      color: #e2e8f0;
+      line-height: 1.8;
+      margin: 0 0 24px 0;
+    }
+    .sc-kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    @media (max-width: 900px) {
+      .sc-kpi-strip { grid-template-columns: repeat(2, 1fr); }
+    }
+    .sc-kpi-cell {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 10px;
+      padding: 16px 18px;
+    }
+    .sc-kpi-val {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: #4ade80;
+      margin-bottom: 4px;
+    }
+    .sc-kpi-desc {
+      font-size: 0.86rem;
+      color: #cbd5e1;
+      line-height: 1.48;
+    }
+
+    /* === EDITORIAL PANELS & BENTO GRIDS === */
+    .sc-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 26px;
+      margin: 24px 0;
+    }
+    .sc-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin: 24px 0;
+    }
+    .sc-grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin: 24px 0;
+    }
+    @media (max-width: 980px) {
+      .sc-grid-3, .sc-grid-4 { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 760px) {
+      .sc-grid-2, .sc-grid-3, .sc-grid-4 { grid-template-columns: 1fr; }
+    }
+    .sc-panel {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-top: 4px solid #0f172a;
+      border-radius: 12px;
+      padding: 24px 26px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    }
+    .sc-panel.emerald { border-top-color: #0f5132; background: #ffffff; }
+    .sc-panel.blue { border-top-color: #1d4ed8; background: #ffffff; }
+    .sc-panel.purple { border-top-color: #6d28d9; background: #ffffff; }
+    .sc-panel.amber { border-top-color: #b45309; background: #ffffff; }
+    .sc-panel-kicker {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: #0f5132;
+      margin-bottom: 8px;
+    }
+    .sc-panel.blue .sc-panel-kicker { color: #1d4ed8; }
+    .sc-panel.purple .sc-panel-kicker { color: #6d28d9; }
+    .sc-panel.amber .sc-panel-kicker { color: #b45309; }
+
+    /* Bento Grid Styles */
+    .sc-bento-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 22px;
+      margin: 26px 0;
+    }
+    .sc-bento-col-4 { grid-column: span 4; }
+    .sc-bento-col-6 { grid-column: span 6; }
+    .sc-bento-col-8 { grid-column: span 8; }
+    .sc-bento-col-12 { grid-column: span 12; }
+    @media (max-width: 900px) {
+      .sc-bento-col-4, .sc-bento-col-6, .sc-bento-col-8 { grid-column: span 12; }
+    }
+    .sc-bento-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 26px 28px;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+    }
+    .sc-bento-card.dark {
+      background: #0f172a;
+      color: #f8fafc;
+      border-color: #334155;
+    }
+    .sc-bento-card.dark h3, .sc-bento-card.dark h4 { color: #ffffff; }
+    .sc-bento-card.dark p { color: #cbd5e1; }
+
+    /* === FORMULA & CODE BLOCKS === */
+    .sc-math-box {
+      background: #0f172a;
+      color: #f8fafc;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 22px 0;
+      border-left: 5px solid #10b981;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+    }
+    .sc-math-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #4ade80;
+      margin-bottom: 8px;
+    }
+    .sc-math-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #38bdf8;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 9px 14px;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 8px 0 14px 0;
+      line-height: 1.45;
+    }
+
+    /* === TABLES & BADGES === */
+    .sc-table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid #cbd5e1;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.04);
+    }
+    .sc-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+    .sc-table th {
+      background: #0f172a;
+      color: #ffffff;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-align: left;
+      padding: 14px 18px;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+    .sc-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #1e293b;
+      line-height: 1.62;
+      vertical-align: top;
+    }
+    .sc-table tr:last-child td { border-bottom: none; }
+    .sc-table tr:nth-child(even) td { background: #f8fafc; }
+    .sc-pill-emerald {
+      display: inline-block;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #dcfce7;
+      color: #166534;
+      border: 1px solid #86efac;
+      letter-spacing: 0.04em;
+    }
+    .sc-pill-gold {
+      display: inline-block;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #fef3c7;
+      color: #92400e;
+      border: 1px solid #fde68a;
+      letter-spacing: 0.04em;
+    }
+    .sc-pill-blue {
+      display: inline-block;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: #1e40af;
+      border: 1px solid #93c5fd;
+      letter-spacing: 0.04em;
+    }
+
+    /* === CALLOUTS & PIPELINE STRIPS === */
+    .sc-callout {
+      background: #ffffff;
+      border-left: 5px solid #0f5132;
+      border-radius: 0 12px 12px 0;
+      padding: 22px 26px;
+      margin: 26px 0;
+      border-top: 1px solid #cbd5e1;
+      border-right: 1px solid #cbd5e1;
+      border-bottom: 1px solid #cbd5e1;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    }
+    .sc-callout-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #064e3b;
+      margin-bottom: 8px;
+    }
+    .sc-pipeline-strip {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin: 24px 0;
+    }
+    .sc-pipeline-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 18px 22px;
+      box-shadow: 0 3px 12px rgba(15, 23, 42, 0.03);
+    }
+    .sc-step-badge {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      background: #0f172a;
+      color: #4ade80;
+      padding: 6px 14px;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    /* === SVG CONTAINER WRAPPER === */
+    .sc-svg-wrap {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 20px;
+      margin: 28px 0;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+      overflow-x: auto;
+    }
+    .sc-svg-wrap svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-width: 780px;
+    }
+    .sc-svg-caption {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 12px;
+      text-align: center;
+    }
+
+    @media print {
+      html, body, .sc-monograph { background: #ffffff !important; padding-left: 0 !important; }
+      #sc-left-nav, .sc-nav-toggle { display: none !important; }
+      .sc-panel, .sc-bento-card, .sc-callout, .sc-table-wrap, .sc-svg-wrap { break-inside: avoid !important; }
+    }
+  </style>
   <script>
     (function() {
       var p = location.pathname.replace(/\\/g, "/");
@@ -29,196 +480,602 @@
         base = i !== -1 ? "file://" + p.substring(0, i + 8) + "common_assets/" : "./common_assets/";
       }
       document.write("<link rel=\"stylesheet\" href=\"" + base + "common_new.css?v=2.2\">");
-      document.write("<script src=\"" + base + "nav_new.js?v=2.2\" defer><\/script><script src=\"" + base + "sc_translator.js\" defer><\/script>");
+      document.write("<script src=\"" + base + "nav_new.js?v=2.2\" defer><\/script><script src=\"" + base + "sc_translator.js?v=5.0\" defer><\/script>");
     })();
   </script>
-  <style>
-    .sc-auto-page {
-      box-sizing: border-box;
-      width: 100%;
-      max-width: min(1360px, 95%);
-      padding: clamp(40px, 5vh, 68px) clamp(24px, 4.5vw, 72px) 120px;
-      font-family: "Inter", sans-serif;
-      color: #0f172a;
-    }
-    main h1, main h2, main h3, main h4,
-    main p, main .sc-lead, main .sc-p,
-    main .sc-route, main .sc-sec,
-    main .sc-card-line, main .sc-card-emerald {
-      margin-left: 0 !important;
-      padding-left: 0 !important;
-      text-indent: 0 !important;
-      text-align: left !important;
-    }
-    .sc-route {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 0.88rem;
-      font-weight: 600;
-      color: #475569;
-      letter-spacing: 0.04em;
-      margin: 0 0 18px 0;
-      text-transform: lowercase;
-    }
-    .sc-sec {
-      padding: 52px 0;
-      border-bottom: 1.5px solid rgba(15, 23, 42, 0.14);
-    }
-    .sc-sec:last-of-type { border-bottom: none; }
-    .sc-kicker {
-      display: inline-block;
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #0f5132;
-      background: rgba(22, 135, 101, 0.15);
-      padding: 5px 12px;
-      border-radius: 4px;
-      margin: 0 0 14px 0;
-    }
-    .sc-h1 {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: clamp(2.1rem, 3.6vw, 3.1rem);
-      font-weight: 700;
-      color: #0f172a;
-      letter-spacing: -0.025em;
-      line-height: 1.12;
-      margin: 0 0 14px 0;
-    }
-    .sc-sub {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: clamp(1.15rem, 1.6vw, 1.38rem);
-      font-weight: 600;
-      color: #0f5132;
-      line-height: 1.4;
-      margin: 0 0 24px 0;
-    }
-    .sc-h2 {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: clamp(1.45rem, 2.2vw, 1.95rem);
-      font-weight: 700;
-      color: #0f172a;
-      letter-spacing: -0.02em;
-      line-height: 1.25;
-      margin: 0 0 18px 0;
-    }
-    .sc-h3 {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 1.15rem;
-      font-weight: 700;
-      color: #0f172a;
-      margin: 0 0 10px 0;
-      line-height: 1.35;
-    }
-    .sc-lead {
-      font-size: clamp(1.04rem, 1.22vw, 1.14rem);
-      line-height: 1.82;
-      color: #1e293b;
-      margin: 0 0 34px 0;
-    }
-    .sc-p {
-      font-size: 0.97rem;
-      line-height: 1.8;
-      color: #334155;
-      margin: 0;
-    }
-    /* Spacious 2-Column (2x2) Grid Layout */
-    .sc-grid-2x2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 48px;
-      row-gap: 38px;
-      margin-top: 28px;
-    }
-    @media (max-width: 760px) {
-      .sc-grid-2x2 { grid-template-columns: 1fr; }
-    }
-    .sc-card-line {
-      padding-top: 20px !important;
-      border-top: 2px solid rgba(15, 23, 42, 0.24) !important;
-    }
-    .sc-card-emerald {
-      padding-top: 20px !important;
-      border-top: 3px solid #168765 !important;
-    }
-    .sc-num-label {
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 0.82rem;
-      font-weight: 700;
-      color: #0f5132;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 8px;
-    }
-    .sc-callout {
-      margin-top: 38px;
-      padding: 20px 24px !important;
-      border-left: 4px solid #0f5132;
-      background: rgba(255, 255, 255, 0.34);
-      font-size: 0.98rem;
-      font-weight: 500;
-      color: #0f172a;
-      line-height: 1.72;
-    }
-    @media print {
-      html, body, main, .sc-auto-page { background: #ffffff !important; padding-left: 0 !important; opacity: 1 !important; }
-      #sc-left-nav, .sc-nav-toggle { display: none !important; }
-      .sc-card-line, .sc-card-emerald, .sc-callout { break-inside: avoid !important; page-break-inside: avoid !important; }
-    }
-  </style>
 </head>
 <body class="sc-nav-open">
-  <main class="sc-auto-page">
-    <p class="sc-route">partnership - connect</p>
+  <main class="sc-monograph">
+    <!-- Clean Top Breadcrumb Bar (No Action Buttons) -->
+    <div class="sc-top-bar">
+      <p class="sc-route">partnership - connect</p>
+    </div>
 
-    <section class="sc-sec" style="padding-top: 12px;">
-      <div><span class="sc-kicker">INSTITUTIONAL IR, PARTNERSHIP &amp; MEDIA GATEWAY</span></div>
-      <h1 class="sc-h1">*SC - Connect</h1>
-      <p class="sc-sub">Zero Sunk-Capex Investment Architecture, 20-Track B2B Offer Sheets &amp; Unmanned Media Broadcasting.</p>
-      <p class="sc-lead"><strong>Connect</strong> serves as the institutional interface connecting global investors, manufacturing partners, regional wholesalers, and media audiences with the <strong>*SC (SISTAR Company)</strong> universe - backed by 100% completed cloud/AI infrastructure and verifiable daily NAV auditing.</p>
+    <!-- Chapter I: Executive Onboarding Manifesto & Command Gateway -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter I &bull; Commercial Onboarding Gateway</span>
+        <span class="sc-chapter-tag">Layer 5 Node &bull; Connect Command Protocol</span>
+      </div>
+      <h1 class="sc-doc-h1">*SC Connect: Partner Onboarding &amp; Execution</h1>
+      <p class="sc-lead">The deterministic operational gateway for executing commercial partnerships, 20-track B2B offer sheets, Qubit ERP data synchronization, and joint venture formations across the Signal Star Universe (*SC).</p>
 
-      <div class="sc-grid-2x2">
-        <div class="sc-card-line">
-          <div class="sc-num-label">01 &bull; WHAT IT IS (CORE DEFINITION)</div>
-          <h2 class="sc-h3">3-Year Financial Trajectory &amp; Unit Economics</h2>
-          <p class="sc-p">Targets Year 1 Revenue of KRW 2.0B (20% OPM) &rarr; Year 2 KRW 7.0B (35% OPM) &rarr; Year 3 KRW 15.0B (35% OPM), supported by an LTV/CAC ratio of 17.5x, 2.8-month payback, and 60-75% blended gross margin.</p>
+      <div class="sc-exec-hero">
+        <h3>Autonomous Commercial Ingress Architecture</h3>
+        <p>Connecting with *SC is engineered as a software-grade, zero-bureaucracy deployment. Where traditional corporate alliances suffer from prolonged negotiation deadlocks, ambiguous revenue shares, and disconnected IT backends, *SC Connect provides standardized API hooks, pre-underwritten commercial contracts, and instantaneous ($t = 0$) financial reconciliation. Whether you are an industrial manufacturer activating Track 02 or a national distributor onboarding Track 06, this monograph details every phase of legal, technical, and operational integration.</p>
+        <div class="sc-kpi-strip">
+          <div class="sc-kpi-cell">
+            <div class="sc-kpi-val">5 Days</div>
+            <div class="sc-kpi-desc">Fast-track technical integration velocity from initial qualification to live API test transaction.</div>
+          </div>
+          <div class="sc-kpi-cell">
+            <div class="sc-kpi-val">100% Code-Native</div>
+            <div class="sc-kpi-desc">Automated webhook payloads, cryptographic HMAC signing, and synchronized Google Workspace Console ledgers.</div>
+          </div>
+          <div class="sc-kpi-cell">
+            <div class="sc-kpi-val">Zero Float Loss</div>
+            <div class="sc-kpi-desc">Instantaneous 70/30 split settlement eliminating merchant receivables float and working-capital drag.</div>
+          </div>
+          <div class="sc-kpi-cell">
+            <div class="sc-kpi-val">8 Clearances</div>
+            <div class="sc-kpi-desc">Automated customs documentation compiling for MFDS, BPOM, FDA, PMDA, and NMPA jurisdictional passage.</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="sc-p">Through <strong>*SC Connect</strong>, commercial partners gain direct, programmatic access to the operational core of the 12-domain *SC matrix. By establishing bi-directional data pipelines with Qubit ERP (Domain 03) and connecting to the automated fulfillment routers of Scarlet AI (Domain 04) and Biz Hub (Domain 07), every partner transaction is settled with mathematical auditability on our daily Net Asset Value (NAV) ledgers.</p>
+
+      <!-- Bespoke Inline SVG #1: End-to-End Partner Onboarding & Integration Lifecycle Topology -->
+      <div class="sc-svg-wrap">
+        <svg viewBox="0 0 960 360" class="notranslate" translate="no" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="cGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#090d16"/>
+              <stop offset="100%" stop-color="#0c2317"/>
+            </linearGradient>
+            <linearGradient id="cGradEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#064e3b"/>
+              <stop offset="100%" stop-color="#10b981"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Canvas Base -->
+          <rect x="8" y="8" width="944" height="344" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="2"/>
+          <text x="36" y="42" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">END-TO-END PARTNER ONBOARDING &amp; SYSTEMS INTEGRATION TOPOLOGY</text>
+          <text x="740" y="42" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600">ZERO BUREAUCRATIC DRAG</text>
+
+          <!-- Stage Node 1: Intake & Assessment -->
+          <g transform="translate(36, 72)">
+            <rect width="168" height="252" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <rect x="12" y="14" width="30" height="22" rx="4" fill="#0f5132"/>
+            <text x="19" y="29" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">01</text>
+            <text x="48" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11.5" font-weight="700">INTAKE &amp; NDA</text>
+            <line x1="12" y1="46" x2="156" y2="46" stroke="#334155" stroke-width="1"/>
+            <text x="14" y="70" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; Capability Audit</text>
+            <text x="14" y="90" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">SKU specification,</text>
+            <text x="14" y="104" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">production capacity,</text>
+            <text x="14" y="118" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">warehouse square footage</text>
+            <text x="14" y="142" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; Digital Mutual NDA</text>
+            <text x="14" y="162" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">Instant digital signoff</text>
+            <text x="14" y="176" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">protecting partner IP</text>
+            <rect x="12" y="212" width="144" height="26" rx="4" fill="#1e293b"/>
+            <text x="20" y="229" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="9.5" font-weight="600">TIME: DAY 1 - 2</text>
+          </g>
+
+          <!-- Stage Node 2: Offer Sheet Selection -->
+          <g transform="translate(224, 72)">
+            <rect width="168" height="252" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <rect x="12" y="14" width="30" height="22" rx="4" fill="#0f5132"/>
+            <text x="19" y="29" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">02</text>
+            <text x="48" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11.5" font-weight="700">TRACK MATCH</text>
+            <line x1="12" y1="46" x2="156" y2="46" stroke="#334155" stroke-width="1"/>
+            <text x="14" y="70" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; 20-Track Blueprint</text>
+            <text x="14" y="90" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">Matching to Tracks 01-20</text>
+            <text x="14" y="104" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">or custom hybrid JV model</text>
+            <text x="14" y="128" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; RPF Formulation</text>
+            <text x="14" y="148" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">3-Month rolling purchasing</text>
+            <text x="14" y="162" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">forecast simulation</text>
+            <text x="14" y="176" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">and margin locks</text>
+            <rect x="12" y="212" width="144" height="26" rx="4" fill="#1e293b"/>
+            <text x="20" y="229" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="9.5" font-weight="600">TIME: DAY 3 - 4</text>
+          </g>
+
+          <!-- Stage Node 3: Legal & Credit Shield -->
+          <g transform="translate(412, 72)">
+            <rect width="168" height="252" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <rect x="12" y="14" width="30" height="22" rx="4" fill="#0f5132"/>
+            <text x="19" y="29" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">03</text>
+            <text x="48" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11.5" font-weight="700">K-SURE &amp; SPV</text>
+            <line x1="12" y1="46" x2="156" y2="46" stroke="#334155" stroke-width="1"/>
+            <text x="14" y="70" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; Credit Underwriting</text>
+            <text x="14" y="90" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">K-SURE export insurance</text>
+            <text x="14" y="104" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">securing 90-day terms</text>
+            <text x="14" y="128" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; Firewall Insulation</text>
+            <text x="14" y="148" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">Dual-track legal shield</text>
+            <text x="14" y="162" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">walling off operating risks</text>
+            <text x="14" y="176" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">from holding company IP</text>
+            <rect x="12" y="212" width="144" height="26" rx="4" fill="#1e293b"/>
+            <text x="20" y="229" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="9.5" font-weight="600">TIME: DAY 5 - 6</text>
+          </g>
+
+          <!-- Stage Node 4: Qubit ERP API Sync -->
+          <g transform="translate(600, 72)">
+            <rect width="168" height="252" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <rect x="12" y="14" width="30" height="22" rx="4" fill="#0f5132"/>
+            <text x="19" y="29" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">04</text>
+            <text x="48" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11.5" font-weight="700">API &amp; ERP SYNC</text>
+            <line x1="12" y1="46" x2="156" y2="46" stroke="#334155" stroke-width="1"/>
+            <text x="14" y="70" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; Webhook Provision</text>
+            <text x="14" y="90" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">Order, shipment, and</text>
+            <text x="14" y="104" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">inventory event triggers</text>
+            <text x="14" y="128" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10" font-weight="600">&bull; Google Console Sync</text>
+            <text x="14" y="148" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">Console.csv, Daily Sales,</text>
+            <text x="14" y="162" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9">and Dashboard ledgers</text>
+            <rect x="12" y="212" width="144" height="26" rx="4" fill="#1e293b"/>
+            <text x="20" y="229" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="9.5" font-weight="600">TIME: DAY 7 - 9</text>
+          </g>
+
+          <!-- Stage Node 5: Live Scale & t=0 Settlement -->
+          <g transform="translate(788, 72)">
+            <rect width="136" height="252" rx="10" fill="url(#cGradDark)" stroke="#10b981" stroke-width="2"/>
+            <rect x="10" y="14" width="28" height="22" rx="4" fill="#064e3b"/>
+            <text x="17" y="29" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">05</text>
+            <text x="44" y="30" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">LIVE SETTLE</text>
+            <line x1="10" y1="46" x2="126" y2="46" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+            <text x="12" y="70" fill="#4ade80" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700">&bull; 70/30 Split</text>
+            <text x="12" y="88" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="8.5">Real-time merchant</text>
+            <text x="12" y="100" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="8.5">escrow payout</text>
+            <text x="12" y="124" fill="#4ade80" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700">&bull; Daily NAV</text>
+            <text x="12" y="142" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="8.5">Automated accounting</text>
+            <text x="12" y="154" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="8.5">audited in 8 bases</text>
+            <rect x="10" y="212" width="116" height="26" rx="4" fill="#090d16"/>
+            <text x="16" y="229" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="9" font-weight="700">t = 0 GO LIVE</text>
+          </g>
+
+          <!-- Connecting Arrows -->
+          <path d="M 204 198 L 224 198" stroke="#4ade80" stroke-width="2"/>
+          <path d="M 392 198 L 412 198" stroke="#4ade80" stroke-width="2"/>
+          <path d="M 580 198 L 600 198" stroke="#4ade80" stroke-width="2"/>
+          <path d="M 768 198 L 788 198" stroke="#4ade80" stroke-width="2"/>
+        </svg>
+      </div>
+      <p class="sc-svg-caption">Figure 2.1: *SC Connect Five-Phase Partner Onboarding &amp; Execution Topology</p>
+    </section>
+
+    <!-- Chapter II: The 5-Phase Commercial Integration Protocol -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter II &bull; Five-Phase Integration Protocol</span>
+        <span class="sc-chapter-tag">Execution Workflow &bull; Standard Operating Procedure</span>
+      </div>
+      <h2 class="sc-chapter-h2">The 5-Phase Commercial Onboarding Protocol</h2>
+      <p class="sc-lead">A disciplined, step-by-step onboarding pipeline that guides manufacturers, wholesalers, and clinical networks from initial confidential qualification to live commercial trading within fourteen calendar days.</p>
+
+      <div class="sc-pipeline-strip">
+        <div class="sc-pipeline-step">
+          <div class="sc-step-badge">PHASE 01</div>
+          <div>
+            <h3 class="sc-sub-h3">Intake, Capacity Audit &amp; Mutual Non-Disclosure (Days 1 &ndash; 3)</h3>
+            <p class="sc-p">Prospective partners initiate onboarding through the digital Connect Intake Portal. Partners submit baseline operational telemetry: existing factory certifications (GMP, ISO 22000, HACCP), daily production throughput, cold-chain warehouse square footage, or regional retail store counts. A legally binding mutual NDA is automatically counter-signed within 60 minutes, ensuring 100% confidentiality for partner proprietary formulas, trade secrets, and supplier lists.</p>
+          </div>
         </div>
 
-        <div class="sc-card-line">
-          <div class="sc-num-label">02 &bull; WHY WE DO IT (MARKET OPPORTUNITY)</div>
-          <h2 class="sc-h3">20-Track Standardized B2B Offer Sheets</h2>
-          <p class="sc-p">Ready-to-execute commercial packages covering Container Volume Deals (First 3 Shipments 50% Deposit), SISTAR SOD (Zero-Inventory Dropshipping), Offline Wholesalers, Influencers I-III, and S1-S6 Franchises.</p>
+        <div class="sc-pipeline-step">
+          <div class="sc-step-badge">PHASE 02</div>
+          <div>
+            <h3 class="sc-sub-h3">Commercial Track Matching &amp; Unit Economic Modeling (Days 4 &ndash; 6)</h3>
+            <p class="sc-p">*SC commercial directors analyze partner data against the 20-Track B2B Catalog. An algorithmic unit-economic simulation is generated, detailing production cost curves, customs duty tariffs across target destination countries, K-SURE credit insurance fees, and projected net profit margins. The partner selects their optimal track (e.g., Track 01 for bulk FCL containers, Track 11 for veterinary clinics, or Track 18 for lifestyle boutiques) and commits to a 3-Month Rolling Purchasing Forecast (RPF).</p>
+          </div>
         </div>
 
-        <div class="sc-card-emerald">
-          <div class="sc-num-label">03 &bull; HOW IT WORKS (OPERATIONAL MECHANISM)</div>
-          <h2 class="sc-h3">SISTAR Studio &amp; The SIGNAL STAR Post</h2>
-          <p class="sc-p">Unmanned media engine producing 10+ shoppable videos, automated newsletters, and global industry briefs daily via RSS/Make/Gemini pipelines - driving zero-CAC organic traffic across all portals.</p>
+        <div class="sc-pipeline-step">
+          <div class="sc-step-badge">PHASE 03</div>
+          <div>
+            <h3 class="sc-sub-h3">Contractual Finalization &amp; Sovereign Credit Underwriting (Days 7 &ndash; 9)</h3>
+            <p class="sc-p">The master commercial agreement is executed digitally. For industrial import/export agreements, *SC initiates underwriting with Korea Trade Insurance Corporation (K-SURE) or regional trade banks. For Track 01, 02, and 06 partners, the First 3 Shipments 50% Deposit escrow mechanism is established. Simultaneously, the Dual-Track Legal Firewall is erected, isolating the partner's operating entity and IP from liabilities across other *SC commercial ventures.</p>
+          </div>
         </div>
 
-        <div class="sc-card-emerald">
-          <div class="sc-num-label">04 &bull; REVENUE MODEL &amp; EXPECTED ROI</div>
-          <h2 class="sc-h3">IATA &amp; IADA Global Governance</h2>
-          <p class="sc-p">Anchored by the International AI-Trade Association (IATA) and International AI-Data Association (IADA), establishing global standards for AI-driven cross-border trade and data sovereignty.</p>
+        <div class="sc-pipeline-step">
+          <div class="sc-step-badge">PHASE 04</div>
+          <div>
+            <h3 class="sc-sub-h3">Systems, Logistics &amp; API Pipeline Synchronization (Days 10 &ndash; 12)</h3>
+            <p class="sc-p">The partner's technical and warehouse personnel connect to the *SC operational suite. Dedicated Google Workspace Console credentials are issued, giving access to `Console.csv`, `Monthly Sales I.csv`, and real-time inventory tracking spreadsheets. Webhook endpoints are configured to broadcast order creation, inventory decrement, and port customs status. Warehouse pallet racking in target bonded zones is mapped directly into Qubit ERP.</p>
+          </div>
+        </div>
+
+        <div class="sc-pipeline-step">
+          <div class="sc-step-badge">PHASE 05</div>
+          <div>
+            <h3 class="sc-sub-h3">Commercial Go-Live, Fulfillment &amp; Automated 70/30 Settlement (Day 14)</h3>
+            <p class="sc-p">Commercial operations commence. Inbound containers or digital drop-ship orders are processed instantaneously. As transactions clear, payment gateway webhooks trigger real-time 70/30 fund distribution: 70% is credited directly to the merchant/partner working account, while 30% settles platform fees. Daily Net Asset Value (NAV) ledgers audit all balances automatically at midnight, providing absolute financial clarity.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="sc-sec">
-      <div><span class="sc-kicker">STRATEGIC SYNERGY &amp; GOVERNANCE</span></div>
-      <h2 class="sc-h2">Integration Within the Signal Star Universe (*SC)</h2>
-      <div class="sc-grid-2x2">
-        <div class="sc-card-line">
-          <h3 class="sc-h3">1. Core Architecture &amp; Technical Integration</h3>
-          <p class="sc-p">Connected across our 12-domain semantic web matrix and 8 international bases (Korea SCK, Indonesia SCI, Singapore SCS, USA SCU, Vietnam SCV, India SCIND, China SCC, Japan SCJ). Every workflow is tracked transparently via standardized Google Workspace Console, Monthly Sales, and Dashboard ledgers.</p>
+    <!-- Chapter III: Technical Architecture — Qubit ERP & Real-Time API Data Feeds -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter III &bull; Technical Architecture</span>
+        <span class="sc-chapter-tag">Qubit ERP &bull; API Endpoints &bull; Cryptographic Webhooks</span>
+      </div>
+      <h2 class="sc-chapter-h2">Qubit ERP Integration &amp; Real-Time Data Pipelines</h2>
+      <p class="sc-lead">Partners connect to *SC through code-native, high-throughput interfaces that eliminate manual spreadsheet emailing and order-entry human errors.</p>
+
+      <div class="sc-math-box">
+        <div class="sc-math-title">Cryptographic Webhook Signature &amp; Event Verification Protocol</div>
+        <div class="sc-math-code">Signature = HMAC_SHA256(Secret_Key, Timestamp + "." + Payload_JSON)</div>
+        <p style="margin: 0; color: #cbd5e1; font-size: 0.94rem; line-height: 1.65;">Every transactional event (purchase order creation, container customs clearance, inventory depletion, split payout) is broadcast to the partner's secure HTTPS endpoint with an encrypted timestamped signature. Tamper-evident verification guarantees zero unauthorized order modifications and instantaneous reconciliation across all 8 country hubs.</p>
+      </div>
+
+      <div class="sc-grid-3">
+        <div class="sc-panel emerald">
+          <div class="sc-panel-kicker">Data Pipeline 01 &bull; Google Workspace Console Trilogy</div>
+          <h3 class="sc-sub-h3">Real-Time Collaborative Ledgers</h3>
+          <p class="sc-p">Partners manage operational velocity without expensive third-party enterprise licenses. *SC provides a standardized Google Workspace environment where <code>Console.csv</code> (task tracking), <code>Monthly Sales I.csv</code> (gross merchandise value), and <code>Dashboard I.csv</code> (consolidated KPI trends) sync bi-directionally with Qubit ERP every 15 minutes.</p>
         </div>
-        <div class="sc-card-line">
-          <h3 class="sc-h3">2. Risk Firewall &amp; Settlement Security</h3>
-          <p class="sc-p">Protected by the *SC Triple Control Towers and Dual-Track Legal Firewall (isolating SC Index holding IP from Biz Galaxy commercial liabilities). Transactions leverage 3-Month Rolling Purchasing Forecasts (RPF), K-SURE export credit guarantees, and automated 70/30 PG webhook split settlements.</p>
+
+        <div class="sc-panel blue">
+          <div class="sc-panel-kicker">Data Pipeline 02 &bull; REST &amp; GraphQL Webhook Suite</div>
+          <h3 class="sc-sub-h3">Programmatic ERP Hooks</h3>
+          <p class="sc-p">Enterprise partners integrate directly via RESTful APIs and GraphQL endpoints. Core event hooks include: <code>sc.order.placed</code>, <code>sc.inventory.threshold_alert</code>, <code>sc.customs.dossier_approved</code>, and <code>sc.payout.split_cleared</code>, enabling partner internal SAP or Oracle ERPs to reflect *SC transactions in real time.</p>
+        </div>
+
+        <div class="sc-panel purple">
+          <div class="sc-panel-kicker">Data Pipeline 03 &bull; Auto-Replenishment Algorithms</div>
+          <h3 class="sc-sub-h3">Predictive Stock Reordering</h3>
+          <p class="sc-p">Using historical sell-through velocity, sea-freight transit times, and regional seasonality (e.g., monsoon demand in Indonesia or Lunar New Year in Vietnam), Qubit ERP calculates dynamic safety stock levels and automatically drafts replenishment container purchase orders 45 days before stockouts occur.</p>
         </div>
       </div>
-      <div class="sc-callout"><strong>*SC - SISTAR COMPANY | One Spark, Infinite Galaxifying:</strong> Powered by the Qubit Algorithm&trade;, *SC intelligence-core, Scarlet AI, Qubit Biz, and the Biz Galaxy constellation.<br/>Corporate Portal: https://sistarcompany.com &bull; Executive Contact: DennyKu (denniiku@sistarcompany.com)</div>
+    </section>
+
+    <!-- Chapter IV: 20-Track B2B Offer Sheets Execution Playbook -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter IV &bull; Execution Playbook</span>
+        <span class="sc-chapter-tag">Operational SLAs &bull; Tranche Mechanics</span>
+      </div>
+      <h2 class="sc-chapter-h2">Execution Playbook for the 20 B2B Offer Tracks</h2>
+      <p class="sc-lead">A detailed operational breakdown of contract execution, container movement, and revenue settlement across the four core commercial tranches.</p>
+
+      <div class="sc-grid-2">
+        <div class="sc-bento-card">
+          <div class="sc-panel-kicker">Tranche A Execution &bull; Tracks 01 &ndash; 05</div>
+          <h3 class="sc-sub-h3">Bulk Industrial Trade &amp; Contract ODM</h3>
+          <p class="sc-p">Governs maritime full-container-load (FCL) shipments of raw materials and finished goods under Incoterms 2020 CIF or DDP. Initial orders require 50% production deposit, with balance settled via 60-day K-SURE insured deferred terms upon bill of lading issuance. Contract ODM formulations (Track 02) include mutual IP protection, pilot sample signoff within 10 days, and guaranteed batch stability testing.</p>
+        </div>
+
+        <div class="sc-bento-card">
+          <div class="sc-panel-kicker">Tranche B Execution &bull; Tracks 06 &ndash; 10</div>
+          <h3 class="sc-sub-h3">Wholesale Distribution &amp; Consignment Depots</h3>
+          <p class="sc-p">Grants exclusive or selective provincial distribution rights. Master distributors must maintain minimum quarterly purchasing volumes to protect exclusivity. Consignment depot stocking (Track 08) places *SC-owned inventory in partner metropolitan warehouses; ownership transfers and automated invoicing trigger only when pallets leave the loading dock for retail delivery.</p>
+        </div>
+      </div>
+
+      <div class="sc-grid-2">
+        <div class="sc-bento-card">
+          <div class="sc-panel-kicker">Tranche C Execution &bull; Tracks 11 &ndash; 15</div>
+          <h3 class="sc-sub-h3">Clinical Veterinary Compounding &amp; Prescriptions</h3>
+          <p class="sc-p">Deploys the Auto-Formulator for Vet into clinical veterinary hospitals. Clinicians input patient pathology data to generate custom therapeutic botanical blends dispensed directly to pet owners. Clinics capture 55% to 65% retail dispensary margins with zero compounding liability, as all manufacturing is certified under *SC GMP facilities.</p>
+        </div>
+
+        <div class="sc-bento-card">
+          <div class="sc-panel-kicker">Tranche D Execution &bull; Tracks 16 &ndash; 20</div>
+          <h3 class="sc-sub-h3">SISTAR SOD Dropshipping &amp; Retail Franchises</h3>
+          <p class="sc-p">Empowers digital creators and boutique store owners to sell complete branded product lines without stocking inventory. Orders captured on partner TikTok, Shopify, or in-store POS terminals route automatically to *SC space-sharing hubs. Items are picked, packed, and couriered within 24 hours, with merchant profits disbursed instantaneously via payment gateway webhooks.</p>
+        </div>
+      </div>
+
+      <!-- Bespoke Inline SVG #2: Multi-Track B2B Execution & Automated Warehouse Fulfillment Network -->
+      <div class="sc-svg-wrap">
+        <svg viewBox="0 0 960 340" class="notranslate" translate="no" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="cFulfillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#090d16"/>
+              <stop offset="100%" stop-color="#1e3a8a"/>
+            </linearGradient>
+          </defs>
+
+          <rect x="8" y="8" width="944" height="324" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="2"/>
+          <text x="36" y="40" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">MULTI-TRACK B2B EXECUTION &amp; AUTOMATED WAREHOUSE FULFILLMENT NETWORK</text>
+
+          <!-- Inbound Production Hub -->
+          <g transform="translate(36, 70)">
+            <rect width="250" height="230" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <text x="18" y="28" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="12.5" font-weight="700">INBOUND PRODUCTION (T1 &ndash; T5)</text>
+            <rect x="14" y="44" width="222" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="64" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">GMP Formulation &amp; Extrusion</text>
+            <text x="24" y="79" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9.5">Batch testing, heavy metal/microbial screen</text>
+
+            <rect x="14" y="100" width="222" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="120" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Container Packaging &amp; Palletizing</text>
+            <text x="24" y="135" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9.5">FCL container packing, RFID pallet tag</text>
+
+            <rect x="14" y="156" width="222" height="52" rx="6" fill="#1e293b"/>
+            <text x="24" y="176" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Customs Clearance Packet</text>
+            <text x="24" y="191" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9.5">Automated Bill of Lading &amp; Health Cert</text>
+          </g>
+
+          <!-- Central Routing Engine -->
+          <g transform="translate(340, 70)">
+            <rect width="280" height="230" rx="10" fill="url(#cFulfillGrad)" stroke="#3b82f6" stroke-width="2"/>
+            <text x="20" y="28" fill="#60a5fa" font-family="'Space Grotesk', sans-serif" font-size="12.5" font-weight="700">QUBIT LOGISTICS ROUTER</text>
+
+            <rect x="16" y="44" width="248" height="46" rx="6" fill="#090d16" stroke="#2563eb" stroke-width="1"/>
+            <text x="26" y="64" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Bonded Transit &amp; Port Ingress</text>
+            <text x="26" y="79" fill="#93c5fd" font-family="'Inter', sans-serif" font-size="9.5">Busan, Jakarta, Haiphong, Singapore...</text>
+
+            <rect x="16" y="100" width="248" height="46" rx="6" fill="#090d16" stroke="#2563eb" stroke-width="1"/>
+            <text x="26" y="120" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Consignment Depot Allocation</text>
+            <text x="26" y="135" fill="#93c5fd" font-family="'Inter', sans-serif" font-size="9.5">Space-sharing hubs &amp; regional buffer stock</text>
+
+            <rect x="16" y="156" width="248" height="52" rx="6" fill="#090d16" stroke="#2563eb" stroke-width="1"/>
+            <text x="26" y="176" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Smart Replenishment Signal</text>
+            <text x="26" y="191" fill="#93c5fd" font-family="'Inter', sans-serif" font-size="9.5">Dynamic MOQ trigger &amp; automated invoicing</text>
+          </g>
+
+          <!-- Outbound Delivery & Retail -->
+          <g transform="translate(670, 70)">
+            <rect width="254" height="230" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <text x="18" y="28" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="12.5" font-weight="700">OUTBOUND CHANNELS (T6 &ndash; T20)</text>
+
+            <rect x="14" y="44" width="226" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="64" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">National Master Wholesalers</text>
+            <text x="24" y="79" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="9.5">Exclusive territory supply &amp; fleet routing</text>
+
+            <rect x="14" y="100" width="226" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="120" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Veterinary Clinics &amp; Dispensaries</text>
+            <text x="24" y="135" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="9.5">Auto-Formulator clinical compounding</text>
+
+            <rect x="14" y="156" width="226" height="52" rx="6" fill="#1e293b"/>
+            <text x="24" y="176" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">SISTAR SOD &amp; Mint Stores</text>
+            <text x="24" y="191" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="9.5">24h drop-shipping &amp; lifestyle boutique retail</text>
+          </g>
+
+          <!-- Router Paths -->
+          <path d="M 286 123 L 340 123" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M 286 179 L 340 179" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M 620 123 L 670 123" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M 620 179 L 670 179" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 2"/>
+        </svg>
+      </div>
+      <p class="sc-svg-caption">Figure 2.2: Qubit Logistics Router &amp; Multi-Track Commercial Fulfillment Network</p>
+    </section>
+
+    <!-- Chapter V: Joint Venture & Co-Creation Structuring -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter V &bull; Joint Venture Governance</span>
+        <span class="sc-chapter-tag">Legal Vehicles &bull; SPV Formations &bull; Dual Firewall</span>
+      </div>
+      <h2 class="sc-chapter-h2">Joint Venture &amp; SPV Structuring Models</h2>
+      <p class="sc-lead">For institutional partners requiring deep capital entanglement and regional corporate localization, *SC provides three flexible joint-venture architectures protected by our Dual-Track Legal Firewall.</p>
+
+      <div class="sc-grid-3">
+        <div class="sc-panel emerald">
+          <div class="sc-panel-kicker">Model 01 &bull; Project-Specific SPV</div>
+          <h3 class="sc-sub-h3">Special Purpose Project Vehicles</h3>
+          <p class="sc-p">Formed for isolated capital-intensive operations — such as constructing a localized automated pet food extrusion facility in Indonesia or building an overseas botanical extraction laboratory in Vietnam. The partner co-invests equity into a segregated project vehicle with dedicated board seats and ring-fenced balance-sheet accountability.</p>
+        </div>
+
+        <div class="sc-panel blue">
+          <div class="sc-panel-kicker">Model 02 &bull; Regional Master Operating JV</div>
+          <h3 class="sc-sub-h3">Sovereign National Co-Ownership</h3>
+          <p class="sc-p">Formed for national-scale market dominance (exemplified by PT SISTAR Indonesia in Jakarta). *SC contributes algorithms, ERP software, global brand licenses, and initial inventory float; the regional partner contributes local import licenses, distribution channels, and sales manpower. Equity is typically structured 50/50 or 60/40.</p>
+        </div>
+
+        <div class="sc-panel purple">
+          <div class="sc-panel-kicker">Model 03 &bull; Algorithmic Revenue Share</div>
+          <h3 class="sc-sub-h3">Zero-Equity Performance Alliance</h3>
+          <p class="sc-p">For partners seeking immediate commercial cashflow without corporate equity restructuring. Collaboration is governed entirely by smart software contracts and automated payment splits. Profits are calculated on gross merchandise volume (GMV) and distributed in real time via payment gateway webhooks.</p>
+        </div>
+      </div>
+
+      <div class="sc-callout">
+        <div class="sc-callout-title">The Dual-Track Legal Firewall Doctrine</div>
+        <p style="margin: 0; color: #1e293b; font-size: 0.98rem; line-height: 1.75;">
+          Under the *SC corporate constitution, all core algorithms, trademarks, software patents, and AI models reside permanently within the supreme holding company (Domain 01: sc-sistarcompany). Regional Joint Ventures and Project SPVs operate as independent commercial subsidiaries. If an individual regional market experiences trade disputes, currency devaluations, or customs regulatory shifts, the liability is strictly contained within that operating SPV, guaranteeing that partner core equity and holding assets remain completely insulated.
+        </p>
+      </div>
+    </section>
+
+    <!-- Chapter VI: Regulatory Expediting & Customs Fast-Track -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter VI &bull; Regulatory Compliance Expediting</span>
+        <span class="sc-chapter-tag">Customs Clearance &bull; 8 Base Certifications</span>
+      </div>
+      <h2 class="sc-chapter-h2">Regulatory Clearance &amp; Customs Expediting</h2>
+      <p class="sc-lead">Navigating international health, agriculture, and quarantine agencies is the single greatest bottleneck in cross-border trade. *SC deploys autonomous regulatory compilers that slash approval timelines from months to days.</p>
+
+      <!-- Bespoke Inline SVG #3: Cross-Border Regulatory Clearance Architecture -->
+      <div class="sc-svg-wrap">
+        <svg viewBox="0 0 960 340" class="notranslate" translate="no" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="cRegGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#064e3b"/>
+              <stop offset="100%" stop-color="#0f5132"/>
+            </linearGradient>
+          </defs>
+
+          <rect x="8" y="8" width="944" height="324" rx="14" fill="#0b1120" stroke="#1e293b" stroke-width="2"/>
+          <text x="36" y="40" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">AUTONOMOUS REGULATORY CLEARANCE &amp; CUSTOMS EXPEDITING PIPELINE</text>
+
+          <!-- Input Dossier Engine -->
+          <g transform="translate(36, 70)">
+            <rect width="260" height="230" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <text x="18" y="28" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="12.5" font-weight="700">1. DOSSIER INGESTION</text>
+            <rect x="14" y="44" width="232" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="64" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Product Specification &amp; CoA</text>
+            <text x="24" y="79" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9.5">Certificate of Analysis, raw ingredients</text>
+
+            <rect x="14" y="100" width="232" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="120" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Factory Certifications</text>
+            <text x="24" y="135" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9.5">GMP, ISO 22000, HACCP, Halal BPJPH</text>
+
+            <rect x="14" y="156" width="232" height="52" rx="6" fill="#1e293b"/>
+            <text x="24" y="176" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">24/7 Data Factory Translation</text>
+            <text x="24" y="191" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="9.5">Automated multilingual legal formatting</text>
+          </g>
+
+          <!-- Automated Regulatory Mapping -->
+          <g transform="translate(336, 70)">
+            <rect width="288" height="230" rx="10" fill="url(#cRegGrad)" stroke="#10b981" stroke-width="2"/>
+            <text x="20" y="28" fill="#4ade80" font-family="'Space Grotesk', sans-serif" font-size="12.5" font-weight="700">2. COMPLIANCE ENGINE</text>
+
+            <rect x="16" y="44" width="256" height="46" rx="6" fill="#090d16" stroke="#059669" stroke-width="1"/>
+            <text x="26" y="64" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Ingredient Blacklist &amp; Limit Filter</text>
+            <text x="26" y="79" fill="#6ee7b7" font-family="'Inter', sans-serif" font-size="9.5">Scans 12,000+ restricted chemicals/herbs</text>
+
+            <rect x="16" y="100" width="256" height="46" rx="6" fill="#090d16" stroke="#059669" stroke-width="1"/>
+            <text x="26" y="120" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Bilingual Label Generator</text>
+            <text x="26" y="135" fill="#6ee7b7" font-family="'Inter', sans-serif" font-size="9.5">Mandatory statutory warnings, nutritional panels</text>
+
+            <rect x="16" y="156" width="256" height="52" rx="6" fill="#090d16" stroke="#059669" stroke-width="1"/>
+            <text x="26" y="176" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Digital Submission Packet</text>
+            <text x="26" y="191" fill="#6ee7b7" font-family="'Inter', sans-serif" font-size="9.5">Direct API filing to national agency portals</text>
+          </g>
+
+          <!-- Sovereign Agency Approvals -->
+          <g transform="translate(664, 70)">
+            <rect width="260" height="230" rx="10" fill="#131c2e" stroke="#334155" stroke-width="1.5"/>
+            <text x="18" y="28" fill="#f59e0b" font-family="'Space Grotesk', sans-serif" font-size="12.5" font-weight="700">3. EXPEDITED CLEARANCE</text>
+
+            <rect x="14" y="44" width="232" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="64" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">BPOM &amp; Halal (Indonesia)</text>
+            <text x="24" y="79" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="9.5">Fast-track SKI entry approval: 5 days</text>
+
+            <rect x="14" y="100" width="232" height="46" rx="6" fill="#1e293b"/>
+            <text x="24" y="120" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">MFDS (Korea) &amp; PMDA (Japan)</text>
+            <text x="24" y="135" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="9.5">Bio-health quarantine passage: 72 hours</text>
+
+            <rect x="14" y="156" width="232" height="52" rx="6" fill="#1e293b"/>
+            <text x="24" y="176" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">FDA (USA) &amp; MOH (Vietnam)</text>
+            <text x="24" y="191" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="9.5">Dietary supplement pre-market notice</text>
+          </g>
+
+          <!-- Connecting Arrows -->
+          <path d="M 296 123 L 336 123" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M 296 179 L 336 179" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M 624 123 L 664 123" stroke="#10b981" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M 624 179 L 664 179" stroke="#10b981" stroke-width="2" stroke-dasharray="4 2"/>
+        </svg>
+      </div>
+      <p class="sc-svg-caption">Figure 2.3: Automated Regulatory Compliance &amp; Customs Expediting Architecture</p>
+    </section>
+
+    <!-- Chapter VII: Operational SLAs, Settlement Security & Risk Mitigation -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter VII &bull; Service Level Agreements</span>
+        <span class="sc-chapter-tag">Contractual SLAs &bull; Performance Standards</span>
+      </div>
+      <h2 class="sc-chapter-h2">Contractual Service Level Agreements (SLAs)</h2>
+      <p class="sc-lead">Every partnership contract executed via *SC Connect is backed by explicit, quantifiable operational and financial SLAs enforceable under international arbitration.</p>
+
+      <div class="sc-table-wrap">
+        <table class="sc-table">
+          <thead>
+            <tr>
+              <th>Operational Domain</th>
+              <th>Guaranteed Performance Benchmark (SLA)</th>
+              <th>Monitoring &amp; Audit Mechanism</th>
+              <th>Breach Remedy &amp; Penalty Safeguard</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Order Dispatch &amp; Picking</strong></td>
+              <td>Within 24 hours of customer purchase order capture</td>
+              <td>Real-time barcode scan log in Qubit ERP</td>
+              <td>0.5% invoice credit per 12-hour delay</td>
+              <td><span class="sc-pill-emerald">Enforced</span></td>
+            </tr>
+            <tr>
+              <td><strong>Container Port Clearance</strong></td>
+              <td>Under 72 hours from vessel docking in bonded zones</td>
+              <td>Port authority electronic customs clearance timestamp</td>
+              <td>Demurrage and detention fees covered by *SC logistics</td>
+              <td><span class="sc-pill-emerald">Enforced</span></td>
+            </tr>
+            <tr>
+              <td><strong>70/30 Split Cashflow</strong></td>
+              <td>Simultaneous ($t = 0$) payout upon customer payment capture</td>
+              <td>Payment gateway webhook payload verification log</td>
+              <td>Immediate merchant escrow credit + 2% liquidity fee offset</td>
+              <td><span class="sc-pill-emerald">Enforced</span></td>
+            </tr>
+            <tr>
+              <td><strong>Inventory Stock Accuracy</strong></td>
+              <td>99.85% cycle-count accuracy across all space-sharing hubs</td>
+              <td>Weekly automated RFID cycle counts on Console.csv</td>
+              <td>100% replacement reimbursement at landed cost</td>
+              <td><span class="sc-pill-emerald">Enforced</span></td>
+            </tr>
+            <tr>
+              <td><strong>Batch Stability &amp; Quality</strong></td>
+              <td>100% compliance with AAFCO, FEDIAF, and GMP specifications</td>
+              <td>Third-party laboratory Certificate of Analysis (CoA)</td>
+              <td>Immediate batch recall and free container replacement</td>
+              <td><span class="sc-pill-emerald">Enforced</span></td>
+            </tr>
+            <tr>
+              <td><strong>Data Privacy &amp; IP Isolation</strong></td>
+              <td>Zero cross-partner data leakage or proprietary formula sharing</td>
+              <td>Cryptographic zero-knowledge access logs via IADA</td>
+              <td>USD 1,000,000 liquidated damages per willful breach</td>
+              <td><span class="sc-pill-emerald">Enforced</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Chapter VIII: Direct Executive Ingress & Partnership Application Terminal -->
+    <section class="sc-chapter">
+      <div class="sc-chapter-meta">
+        <span class="sc-chapter-num">Chapter VIII &bull; Execution Ingress</span>
+        <span class="sc-chapter-tag">Application Submission &bull; Executive Contact</span>
+      </div>
+      <h2 class="sc-chapter-h2">Initiate Commercial Connection</h2>
+      <p class="sc-lead">Submit your organizational credentials to initiate Stage 01 onboarding. The *SC commercial review committee evaluates submissions within 48 business hours.</p>
+
+      <div class="sc-grid-2">
+        <div class="sc-panel emerald">
+          <div class="sc-panel-kicker">Submission Checklist &bull; Industrial &amp; Wholesale</div>
+          <h3 class="sc-sub-h3">Required Documentation</h3>
+          <ul style="margin: 0; padding-left: 20px; color: #334155; line-height: 1.8; font-size: 0.95rem;">
+            <li>Certificate of Corporate Incorporation and Tax Registration (TIN / NPWP / Business License).</li>
+            <li>Manufacturing facility certifications (GMP, ISO, HACCP, Halal) or wholesale distribution license.</li>
+            <li>Current product catalog with FOB/CIF pricing schedules and minimum order quantities.</li>
+            <li>Target geographic territories (KR, ID, VN, SG, CN, JP, US, IN) and projected annual volume.</li>
+          </ul>
+        </div>
+
+        <div class="sc-panel blue">
+          <div class="sc-panel-kicker">Submission Checklist &bull; Clinical &amp; Digital Retail</div>
+          <h3 class="sc-sub-h3">Required Documentation</h3>
+          <ul style="margin: 0; padding-left: 20px; color: #334155; line-height: 1.8; font-size: 0.95rem;">
+            <li>Veterinary clinical practice license, hospital accreditation, or clinic network profile.</li>
+            <li>Digital storefront URLs (Shopify, Shopee, TikTok Shop) or physical boutique retail footprint.</li>
+            <li>Estimated monthly transaction volume and diagnostic patient throughput.</li>
+            <li>Desired integration track (Track 11 Clinical Rx, Track 16 SOD, Track 18 Mint Boutique).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sc-callout">
+        <div class="sc-callout-title">*SC &bull; SISTAR COMPANY | Global Partner Operations Office</div>
+        <p style="margin: 0; color: #1e293b; font-size: 0.98rem; line-height: 1.75;">
+          <strong>Corporate Portal:</strong> https://sistarcompany.com &bull; <strong>Partnership Portal:</strong> https://partnership.sistarcompany.com<br/>
+          <strong>Connect Command Hub:</strong> https://partnership.sistarcompany.com/01_connect/<br/>
+          <strong>Executive Managing Partner:</strong> DennyKu (denniiku@sistarcompany.com)<br/>
+          <strong>Global Commercial Ingress:</strong> connect@sistarcompany.com &bull; <strong>Technical Integration Support:</strong> api@sistarcompany.com<br/>
+          <em>*SC (SISTAR Company) &bull; One Spark, Infinite Galaxifying &bull; Powered by Qubit Algorithm&trade;, *SC Intelligence Core, Scarlet AI &amp; The Biz Galaxy Constellation.</em>
+        </p>
+      </div>
     </section>
   </main>
 </body>
